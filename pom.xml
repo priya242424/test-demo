@@ -28,7 +28,12 @@
 		<configuration>
 			<outputDirectory>target/jacoco-report</outputDirectory>
 		</configuration>
-		<dependencies><dependency> <groupId>com.apple</groupId> <artifactId>AppleJavaExtensions</artifactId> <version>1.4</version> </dependency></dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
 		<executions>
 			<execution>
 				<goals>
