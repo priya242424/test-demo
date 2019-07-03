@@ -25,7 +25,7 @@
     <artifactId>junit</artifactId>
     <version>4.12</version>
     <scope>test</scope>
-</dependency>
+</dependency>	
   </dependencies>
 
 	<build>
@@ -33,7 +33,7 @@
 	<plugin>
 		<groupId>org.jacoco</groupId>
 		<artifactId>jacoco-maven-plugin</artifactId>
-		<version>0.5.5.201112152213</version>
+		<version>0.7.4.201502262128</version>
 		<configuration>
 			<outputDirectory>target/jacoco-report</outputDirectory>
 		</configuration>
